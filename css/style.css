@@ -34,7 +34,9 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -82,10 +84,23 @@ body {
     box-sizing: border-box;
 }
 
+
+/* 헤더 */
+
 .header {
-    height: 115px;
+    min-height: 115px;
     background-color: #fff;
     border-radius: 0 0 15px 15px;
+    position: relative;
+}
+
+
+/* 로고 */
+
+.logo {
+    position: fixed;
+    bottom: 45px;
+    right: 60px;
 }
 
 .visual {

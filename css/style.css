@@ -134,7 +134,7 @@ a {
 }
 
 .info-menu li {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
 }
 
@@ -176,13 +176,50 @@ a {
     color: rgba(255, 255, 255, 0.95);
     padding: 10px 20px 10px 20px;
     display: block;
-    border-left: 2px solid rgba(255, 255, 255, 0.9)
+    padding: 0 20px;
+    line-height: 45px;
+    border-left: 2px solid rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 0px 0 #000, 0px 1px 0 #000, -1px 0px 0 #000, 0px -1px 0 #000;
+}
+
+.main-menu>li>a:hover {
+    color: hsla(30, 80%, 80%, 1);
+    /*border-bottom: 2px solid #181818; 전체가 된다 글씨가 되는 방법을 해보자*/
+}
+
+.main-menu>li>a:hover::after {
+    content: "";
+    display: block;
+    border-top: 2px solid #181818;
 }
 
 .main-menu ul {
     list-style-type: none;
     background: dimgrey;
     position: absolute;
+}
+
+.about-html {
+    display: block;
+}
+
+.about-css {
+    display: none;
+}
+
+.web-standards {
+    display: none;
+}
+
+.web-accessibility {
+    display: none;
+}
+
+.qna {
+    display: none;
+}
+
+.archive {
     display: none;
 }
 

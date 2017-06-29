@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model 관련 속성 익히기</title>
+    <style>
+        .padding {
+            background: wheat;
+            /* 위아래 10 양 옆 20 두 개 줬을 때 시계 방향으로 적용됨*/
+            padding: 10px 20px 30px 40px;
+            border-width: 5px 10px 15px 20px;
+            border-style: solid dotted dashed double;
+            border-color: #181818 lightcoral lightblue whitesmoke;
+        }
+        
+        .margin {
+            background: coral;
+            /* margin과 padding의 다른점 margin은 위에와 밑이 겹쳐지면 20이 40에 포함된다 일정하게 변할 시*/
+            margin: 20px 30px 40px 50px
+        }
+    </style>
+</head>
+
+<body>
+    <h1>padding 속성</h1>
+    <div class="padding">
+        요소박스의 안쪽여백 A
+    </div>
+    <div class="padding">
+        요소박스의 안쪽여백 B
+    </div>
+    <div class="padding">
+        요소박스의 안쪽여백 C
+    </div>
+    <h1>margin 속성</h1>
+    <div class="margin">
+        요소박스의 바깥쪽쪽여백 A
+    </div>
+    <div class="margin">
+        요소박스의 바깥쪽쪽여백 B
+    </div>
+    <div class="margin">
+        요소박스의 바깥쪽쪽여백 C
+    </div>
+</body>
+
+</html>

@@ -101,11 +101,11 @@ a {
 /* 헤더 */
 
 .header {
-    min-height: 115px;
+    /*min-height: 115px;*/
     background-color: #fff;
     border-radius: 0 0 15px 15px;
     position: relative;
-    padding: 0 30px;
+    padding: 0 30px 40px 30px;
 }
 
 
@@ -171,7 +171,7 @@ a {
     position: relative;
 }
 
-.main-menu>li>a {
+.main-menu span {
     font-size: 1.6rem;
     font-family: "Noto Sans Bold";
     color: rgba(255, 255, 255, 0.95);
@@ -183,12 +183,15 @@ a {
     text-shadow: 1px 0px 0 #000, 0px 1px 0 #000, -1px 0px 0 #000, 0px -1px 0 #000;
 }
 
-.main-menu>li>a:hover {
+.main-menu span:hover,
+.main-menu span:focus {
     color: hsla(30, 80%, 80%, 1);
     /*border-bottom: 2px solid #181818; 전체가 된다 글씨가 되는 방법을 해보자*/
+    outline: 0;
 }
 
-.main-menu>li>a:hover::after {
+.main-menu span:hover::after,
+.main-menu span:focus::after {
     content: "";
     display: block;
     border-top: 2px solid #181818;
@@ -196,7 +199,6 @@ a {
 
 .main-menu ul {
     list-style-type: none;
-    background: aqua;
     position: absolute;
     white-space: nowrap;
     top: 47px;
@@ -221,9 +223,14 @@ a {
     content: "c";
 }
 
-.about-html {
+.main-menu ul a {
+    /* a가 인라인 요소라서 늘어나는 것이 안 보임 색깔을 칠하면 보임*/
+    padding: 8px 15px 7px 0;
     display: block;
-    top: 0;
+}
+
+.about-html {
+    display: none;
     left: 0;
 }
 
@@ -233,22 +240,28 @@ a {
 
 .about-css {
     display: none;
+    left: 0;
 }
 
 .web-standards {
     display: none;
+    left: 0;
 }
 
 .web-accessibility {
     display: none;
+    left: -140px;
 }
 
 .qna {
     display: none;
+    left: -170px;
 }
 
 .archive {
     display: none;
+    /* 마지막 요소이기 때문에*/
+    right: -25px;
 }
 
 .visual {

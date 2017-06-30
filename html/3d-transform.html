@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D Transform 익히기</title>
+    <style>
+        body {}
+        
+        .container {
+            margin: 50px auto;
+            border: 1px solid #999;
+            width: 1000px;
+            height: 500px;
+            overflow: hidden;
+            /*perspective: 1000px;*/
+        }
+        
+        .box {
+            float: left;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            background: red;
+            transform: perspective(1000px) rotateY(45deg);
+        }
+        /*        
+        .box1:hover {
+            transform: translate(50px, 0px);
+        }
+        
+        .box2:hover {
+            transform: skew(15deg);
+        }
+        
+        .box3:hover {*/
+        /* X축 Y축 둘 다 1.2*/
+        /*transform: scale(1.2);
+            transform-origin: 100% 100%;
+        }
+        
+        .box4:hover {
+            transform: rotate(45deg);
+            transform-origin: 0 0;
+        }*/
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

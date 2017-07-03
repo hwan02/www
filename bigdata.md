@@ -271,6 +271,7 @@ easy, pleasure(속도가 빨라지면 등), fun, joy(사용자의 경험을 바�
  #VS code에 대한 질문  
  궁금한거 있을 때 또는 확실하지 않은 부분 표시하는 방법
  <image src="c:user/www/images/캡처" width="150px" height="100px" align="right" > 캡처한 이미지 넣는 방법 ?
+ 계속해서 commit -m ""을 해줘야 하는 이유?
  # 빅데이터에 대한 질문  
  SSG(삼성이 만든 신세계몰, 고가의 식품)?  
  HBS ?  

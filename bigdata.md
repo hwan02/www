@@ -353,3 +353,4 @@ ROI(Return of Investment)
   ~~나도 모르는 취향을 기계가 학습을 통해 나타나게 해주는 컨텐츠~~
   ~~50개, 50개, 50개 우선순위 매겨서 가장 높은 점수를 추천~~
   ~~어떻게 추천하게 만들 것인가~~
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")

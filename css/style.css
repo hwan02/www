@@ -74,6 +74,7 @@ html {
 body {
     font-family: 'Noto Sans Regular', sans-serif;
     font-size: 1.4rem;
+    line-height: 1.15;
     /*font-family: "돋움", Dotum;*/
 }
 
@@ -132,7 +133,7 @@ a {
 
 .logo {
     position: absolute;
-    top: 50px;
+    top: 45px;
     left: 60px;
 }
 
@@ -480,11 +481,12 @@ a {
 
 /* 유효성 검사 배너 링크 */
 
-
-/*.validation {
+.validation {
     margin-top: 20px;
 }
 
+
+/*
 .validation-list li {
     background: url("images/validation_icon.png") no-repeat 20px 50%, linear-gradient(to bottom, #eee, #ccc);
     list-style-type: none;
@@ -547,6 +549,128 @@ a {
 .validation ul li a {
     background: green;
 }*/
+
+
+/* 웹 관련 용어*/
+
+.term {
+    background: linear-gradient(to bottom, #eee, #ccc);
+    margin-top: 20px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.term-heading {
+    font-size: 1.6rem;
+    font-family: "Noto Sans Bold";
+}
+
+.term-list {
+    margin: 10px 0 0 0;
+}
+
+.term-list::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.term-list-subject,
+.term-list-brief {
+    width: 145px;
+    float: right;
+}
+
+.term-list-subject {}
+
+.term-list-thumbnail {
+    float: left;
+}
+
+.term-list-brief {
+    margin-top: 5px !important;
+}
+
+.term-list-thumbnail,
+.term-list-brief {
+    margin: 0;
+}
+
+.even .term-list-subject,
+.even.term-list-brief {
+    float: left;
+}
+
+.even .term-list-thumbnail {
+    float: right;
+}
+
+
+/*.term {
+    background: yellow;
+    margin-top: 20px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 150px;
+    background: linear-gradient(to bottom, #eee 0%, #ccc 100%);
+}*/
+
+
+/*
+.term-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.term-list-subject {
+    color: blue;
+    padding-left: 70px;
+}
+
+.term-list-thumbnail {
+    position: absolute;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.term-list-brief {
+    padding-top: 5px;
+    position: relative;
+    padding-left: 3rem;
+}*/
+
+
+/*.term {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background: orange;
+    list-style-type: none;
+    padding: 15px;
+    min-height: 150px;
+    background: linear-gradient(to bottom, #eee 0%, #ccc 100%);
+    font-family: 'Arial Narrow Bold';
+}
+
+.term-list {
+    display: block;
+    border-radius: 15px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+    padding-left: 45px;
+    list-style-type: none;
+    background: url("../images/web_standards.gif") no-repeat 20px 50%;
+    width: 60px;
+    height: 70px;
+}
+
+.term-list-subject {
+    color: blue;
+}
+
+.term-list-thumbnail {}*/
 
 .slogan {
     height: 10vh;

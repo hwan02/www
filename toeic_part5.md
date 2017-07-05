@@ -1,6 +1,6 @@
 ### TOEIC  
 ## 7월 4일 
-### Part 5 
+### Part 5 (101~115)  
 * 형용사 자리  
     1. 관사 *형용사* 명사  
     2. 소유격 *형용사* 명사  
@@ -100,7 +100,7 @@
 * offer(=give 4형식 동사) 누구 무엇  
 * operating 자, 타 가능 plant operating at full ___운영되는 공장  capacity가 답
 * meet the demand, meet the need: 수요를 충족시키다.  
-### Part 6  
+### Part 6  (116~130)  
 * unprecedented 형(전례 없는) admitted 형(공인된)  
 * on duty 근무 중인, 당번인  on strike 파업 중 on leave 휴가 중
 * 관사 뒤에는 명사 an ___(형) increase 명(증가)  
@@ -189,6 +189,47 @@ highly respected 매우 존경 받는
     * complicated process 복잡한 과정  
     * celebrated place 인기 있는 장소  
     * guided tour 가이드 여행  
+## 7월 5일  
+### Part 6 (131-146)  
+* usual adj.평상시의  
+general adj.일반적인, 종합적인, 대체적인  
+    * 사실에 관해서  
+constant adj.끊임없는  
+frequent adj.잦은, 빈번한  
+* in light of this 이것과 관련하여  
+* 완전한 문장 + to 부정사  
+ensure + 목 / that S V  
+assure + A of B / A to 부정사 / A that S V  
+* evaluate v.평가하다  
+commend v.칭찬하다 +Sbd + on Sth  
+replace v.대신하다 +A with B  
+consult v.상담하다 +(with) Sbd  
+* inform, assure, notify, remind, warn +A (OF B, to R, that)  
+* for 숫자 기간  during 명사  
+* every/all 뒤에 가산복수이면 all  
+* exist 자동사는 수동태가 안 된다.  
+* that ~ 것(확정된 사실), if ~인지 아닌지  
+* meet 충족시키다  
+* issuance 배급, 배포, 발행  
+* thereafter 접속부사. 그후에  
+nevertheless 접속부사.그렇기는 하지만  
+* specification 사양, 스펙 - 가산명사  
+* cover n.표지  
+* on behalf of ~를 대표하여  
+apart from ~외에는, ~를 제외하고  
+* in -ing ~하는데 있어서  
+* as of 시점 ~부터  
+over 동안  
+* much 비교급  
+very 원급  
+* access 타동사 목적어 바로 와야 된다.  
+* trial adj.시험적인  
+* notwithstanding 전.부.~에도 불구하고  
+even if 접.비록~일지라도  
+after 접.~한 후에  
+provided that 접. 오직~하는 경우에  
+* on ~하자마자  
+
 
 
 

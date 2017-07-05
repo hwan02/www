@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import "fontello.css";
 
 /* 웹폰트 선언*/
 
@@ -73,6 +74,15 @@ body {
     font-family: 'Noto Sans Regular', sans-serif;
     font-size: 1.4rem;
     /*font-family: "돋움", Dotum;*/
+}
+
+input,
+textarea,
+select,
+option,
+button {
+    font-family: inherit;
+    font-size: inherit;
 }
 
 
@@ -300,7 +310,7 @@ a {
 .visual-text {
     /* 글자까지만 적용*/
     display: inline-block;
-    animation: text-ani 0.3s forwards 2s ease-in-out;
+    animation: text-ani 1s forwards 2s ease-in-out;
     font-family: Georgia, 'Times New Roman', Times, serif;
     /*animation-name: text-ani;
     animation-duration: 5s;*/
@@ -374,42 +384,42 @@ a {
 /* 로그인 */
 
 .login {
-    background: radial-gradient(circle at right top, #e5892d, #e0652c);
     padding: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: radial-gradient(circle at right top, #e5892d, #e0652c);
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.3);
 }
 
 .login-heading {
-    font-family: "Noto Sans Bold", sans-serif;
-    font-size: 1.6rem;
     color: #ff0;
-    /* 첫 줄 들여쓰기 기능*/
+    font-family: "Noto Sans Bold";
+    font-size: 1.6rem;
     text-indent: 10px;
 }
 
 .login-form {
-    background: white;
-    margin-top: 10px;
+    background: #fff;
     border-radius: 5px 5px 0 0;
     padding: 10px;
+    margin-top: 10px;
 }
 
 .login-form fieldset {
     border: 0;
-    border-bottom: 1px solid #aaa;
-    padding: 0 0 10px 0;
+    padding: 0;
     margin: 0;
     position: relative;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
 }
 
 .user-pw {
-    margin-top: 5px;
+    margin-top: 6px;
 }
 
 .login-form label {
-    display: inline-block;
     width: 4em;
+    display: inline-block;
     cursor: pointer;
 }
 
@@ -417,28 +427,53 @@ a {
     box-sizing: border-box;
     width: 95px;
     height: 22px;
-    border: 1px solid #aaa;
+    border: 1 solid #aaa;
     padding: 1px 1px 1px 5px;
 }
 
 .btn-login {
-    width: 50px;
-    height: 50px;
-    border: 0;
-    padding: 0 5px;
     position: absolute;
     top: 0;
     right: 0;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    padding: 0;
     cursor: pointer;
+    background: hsla(0, 100%, 70%, 1);
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1.3rem;
 }
 
 .member {
-    padding: 0 10px 10px 10px;
-    background: white;
-    border-radius: 0 0 5px 5px;
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    padding: 0 10px 10px 10px;
+    font-size: 1.3rem;
+}
+
+
+/* 플로트 이슈를 해결하기 위한 clearfix */
+
+.member::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.icon-user::before,
+.icon-right-open::before {
+    color: #f00;
+}
+
+.join {
+    float: left;
+}
+
+.find {
+    float: right;
 }
 
 .slogan {

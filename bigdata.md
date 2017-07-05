@@ -147,7 +147,7 @@ R > RDB > WEB/MOBILE  RDB에서 뿌려준다
 
 * Conversational System 
  <img src="./images/capture.PNG" width="1500px" height="350px">
- ![Conversational System](images/capture.png "타이틀 데모")  
+ ~~![Conversational System](/images/capture.png "타이틀 데모")  ~~
  
    * 네이버 번역기 파파고(papago) 실망스럽긴 한데  
       번역에 대한 효율성면에서는 구글이 승  
@@ -344,9 +344,9 @@ ROI(Return of Investment)
 
 
  #VS code에 대한 질문  
-<div style="color:red"> 
+~~<div style="color:red"> 
 궁금한거 있을 때 또는 확실하지 않은 부분 표시하는 방법 
-</div>
+</div>~~
  # 수업 도중 떠오른 아이디어
   ~~기름 넣을 때 굉장히 귀찮음 자동운전으로 갔다오게 하기 카드 위치 저장장소 자동적으로 처리할 수 있게~~   
   ~~개인화 서비스 음식을 먹고 나서 별점 및 맛 청결도 등에 체크를 하면 점수화 해서 추천해주는 어플~~

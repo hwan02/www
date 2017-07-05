@@ -146,7 +146,7 @@ R > RDB > WEB/MOBILE  RDB에서 뿌려준다
 예) 쏘카 어디에 많이 배치 해야 하는가 주차장 설치 여부 등  
 
 * Conversational System 
- <image src="./images/capture.PNG" width="1500px" height="350px">
+ <img src="./images/capture.PNG" width="1500px" height="350px">
  ![Conversational System](./images/capture.png)
  
     * 네이버 번역기 파파고(papago) 실망스럽긴 한데  

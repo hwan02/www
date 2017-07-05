@@ -341,7 +341,7 @@ ROI(Return of Investment)
  빅데이터를 숫자로만 표현하는 것도 있다  
  GEPHI 
 
-
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
  #VS code에 대한 질문  
 ~~<div style="color:red"> 

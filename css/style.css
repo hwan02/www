@@ -674,6 +674,35 @@ a {
 
 .term-list-thumbnail {}*/
 
+.search {
+    background: hotpink;
+    border-radius: 10px;
+    border: 1px 1px 0 1px solid #aaa;
+    width: 380px;
+    height: 60px;
+    line-height: 50px;
+    float: left;
+}
+
+.search-heading {
+    background: aqua;
+}
+
+.search-heading fieldset {
+    background: yellow;
+}
+
+.search-line {
+    background: turquoise;
+}
+
+.btn-search {
+    float: right;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #181818, gray);
+}
+
 .slogan {
     height: 10vh;
 }

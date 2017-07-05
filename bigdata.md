@@ -146,7 +146,7 @@ R > RDB > WEB/MOBILE  RDB에서 뿌려준다
 예) 쏘카 어디에 많이 배치 해야 하는가 주차장 설치 여부 등  
 
 * Conversational System 
- ![Conversational System](./images/캡처.png)
+ ![Conversational System](./images/capture.png)
  
     * 네이버 번역기 파파고(papago) 실망스럽긴 한데  
     번역에 대한 효율성면에서는 구글이 승  

@@ -582,7 +582,9 @@ a {
     float: right;
 }
 
-.term-list-subject {}
+.term-list-subject {
+    color: darkblue;
+}
 
 .term-list-thumbnail {
     float: left;

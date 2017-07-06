@@ -20,6 +20,13 @@ $(function() {
         }
     );
 });
+// 탭메뉴 제어를 위한 자바스크립트
+$(function() {
+    $(".board h2").focus(function() {
+        $(this).parent().addClass("act").siblings().removeClass("act");
+    });
+});
+
 // 서브메뉴 제어를 위한 스크립트
 // $(function(){
 //   $(".main-menu > li").hover(

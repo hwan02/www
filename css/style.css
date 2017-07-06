@@ -731,60 +731,6 @@ button {
 }
 
 
-/* board*/
-
-.board {
-    background: yellow;
-    margin-top: 20px;
-}
-
-.notice {
-    background: red;
-}
-
-.pds {
-    background: blue;
-}
-
-.notice span,
-.pds span {
-    background: wheat;
-    border: 1px solid gray;
-    border-radius: 3px;
-    padding: 5px, 10px, 5px, 10px;
-}
-
-.notice span {
-    position: relative;
-    float: left;
-}
-
-.pds span {
-    position: relative;
-}
-
-.notice li,
-.pds li {
-    font-family: "webcafeIcon";
-    content: "r";
-    position: relative;
-    top: 2px;
-}
-
-.notice-list a,
-.pds-list a {
-    float: left;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-
 /*.search {
     background: hotpink;
     border-radius: 10px;
@@ -813,6 +759,170 @@ a {
     border-radius: 5px;
     background: linear-gradient(to bottom, #181818, gray);
 }*/
+
+
+/* 공지사항 및 자료실*/
+
+.board {
+    margin-top: 20px;
+    position: relative;
+    height: 170px;
+}
+
+.notice-heading,
+.pds-heading {
+    float: left;
+    border: 1px solid #aaa;
+    border-radius: 5px 5px 0 0;
+    color: #999;
+    background: linear-gradient(to bottom, #eee, #ccc);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.act .notice-heading,
+.act .pds-heading {
+    border-color: #e0652c;
+    border-bottom-color: #fff;
+    background: #fff;
+    color: #e0652c;
+    outline: 0;
+}
+
+.notice-list,
+.pds-list {
+    box-sizing: border-box;
+    width: 100%;
+    list-style-type: square;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    padding-left: 20px;
+}
+
+.notice-list li,
+.pds-list li {
+    /* 마진은 겹치면 등간격을 만들어낸다*/
+    margin: 5px 0;
+}
+
+.notice-list a,
+.pds-list a {
+    /* inline 상자니까 안 줄어요*/
+    width: 285px;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.notice-list time,
+.pds-list time {
+    float: right;
+}
+
+.notice-more,
+.pds-more {
+    position: absolute;
+    top: 0;
+    right: -8px;
+    padding: 8px;
+}
+
+.notice-more::before,
+.pds-more::before {
+    content: "p";
+    font-family: "webcafeIcon";
+    color: hsla(120, 100%, 50%, 1);
+    position: relative;
+    top: 2px;
+}
+
+.notice-list,
+.pds-list,
+.notice-more,
+.pds-more {
+    display: none;
+}
+
+.act .notice-list,
+.act .pds-list,
+.act .notice-more,
+.act .pds-more {
+    display: block;
+}
+
+
+/*
+.board {
+    background: yellow;
+    margin-top: 20px;
+    position: relative;
+}
+
+.notice {
+    background: red;
+}
+
+
+.pds {
+    background: blue;
+}
+
+.notice-heading,
+.pds-heading {
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #777, #ccc);
+    padding: 5px, 10px, 5px, 10px;
+    cursor: pointer;
+    float: left;
+}
+
+.act .notice-heading,
+.act .pds-heading {
+    background: #fff;
+    border-color: #e0652c #e0652c #fff;
+    color: orange;
+}
+
+.notice ul,
+.pds ul {
+    background: lawngreen;
+}
+
+.notice li,
+.pds li {
+    background: darkcyan;
+    margin-left: 20px;
+    margin-top: 20px;
+    ]
+}
+
+.notice li a,
+.pds li a {
+    background: darkgray;
+    padding: 5px 5px 5px 5px;
+}
+
+.notice li time,
+.pds li time {
+    background: orchid;
+    float: right;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.notice-more,
+.pds-more {
+    background: gold;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+*/
 
 .slogan {
     height: 10vh;

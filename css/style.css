@@ -674,7 +674,64 @@ a {
 
 .term-list-thumbnail {}*/
 
+
+/* 검색 폼 */
+
 .search {
+    background: linear-gradient(to bottom, #ccc, #fff);
+    border: 1px solid #aaa;
+    border-bottom: 0;
+    border-radius: 15px 15px 0 0;
+    padding: 20px 25px 10px 25px;
+}
+
+.search-form fieldset {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    vertical-align: baseline;
+}
+
+
+/* 영향 안 주고 나만 움직일 수 있게 된다 relative*/
+
+.search label::before {
+    font-family: "webcafeIcon";
+    content: "z";
+    position: relative;
+    top: 2px;
+}
+
+.search input {
+    width: 195px;
+    height: 24px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 1px 1px 1px 5px;
+    box-sizing: border-box;
+    font-family: "Noto Sans Regular";
+    font-size: 1.3rem;
+    margin: 0 3px 0 2px;
+}
+
+.btn-search {
+    border: 1px solid #aaa;
+    padding: 0 10px;
+    border-radius: 3px;
+    height: 24px;
+    background: linear-gradient(to bottom, #777, #ccc);
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+
+/*.search {
     background: hotpink;
     border-radius: 10px;
     border: 1px 1px 0 1px solid #aaa;
@@ -701,7 +758,7 @@ a {
     color: white;
     border-radius: 5px;
     background: linear-gradient(to bottom, #181818, gray);
-}
+}*/
 
 .slogan {
     height: 10vh;

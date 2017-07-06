@@ -924,6 +924,96 @@ a {
 }
 */
 
+
+/* 새소식 */
+
+.news {
+    background: palegoldenrod;
+    margin-top: 20px;
+    position: relative;
+}
+
+.news::before {
+    background: linear-gradient(to right, #777, #fff);
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 30px;
+    width: 80%;
+}
+
+.news-heading {
+    color: red;
+    font-family: "Noto Sans Bold";
+    font-size: 1.6rem;
+}
+
+.news-more {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 8px;
+}
+
+.news-more::before {
+    content: "p";
+    font-family: "webcafeIcon";
+    color: hsla(120, 100%, 50%, 1);
+    position: relative;
+    top: 2px;
+}
+
+.news-item {
+    background: palevioletred;
+    margin-top: 30px;
+    padding-left: 130px;
+    position: relative;
+}
+
+
+/* 점선이 마구잡이로 생기기 때문에 무조건 블락으로 */
+
+.news-item a {
+    display: block;
+}
+
+.news-item-thumbnail {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    top: 0;
+    margin: 0;
+}
+
+.news-item-thumbnail img {
+    box-shadow: 0 10px 15px 0 #aaa;
+    margin-bottom: 15px;
+}
+
+.news-item-heading {
+    font-weight: bold;
+}
+
+.news-item-heading::before {
+    font-family: "webcafeIcon";
+    content: "r";
+    position: relative;
+    top: 2px;
+}
+
+.news-item-data {
+    background: palegreen;
+    margin-left: 15px;
+    display: block;
+}
+
+.news-item-brief {
+    margin-left: 15px;
+    margin-top: 10px;
+    line-height: 1.5rem;
+}
+
 .slogan {
     height: 10vh;
 }

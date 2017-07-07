@@ -1015,7 +1015,7 @@ a {
 /* 이벤트 */
 
 .event-related {
-    background: linear-gradient(to top, #777, #fff);
+    background: linear-gradient(to top, #aaa, #fff);
     border: 1px solid #aaa;
     border-radius: 5px;
     padding: 10px;
@@ -1027,7 +1027,7 @@ a {
 }
 
 .event-heading,
-.event-related {
+.related-heading {
     font-family: "Noto Sans Bold";
     font-size: 1.6rem;
 }
@@ -1045,7 +1045,6 @@ a {
     margin-top: 10px;
     line-height: 1.5;
     font-size: 1.4rem;
-    font-family: "Noto Sans Bold";
     margin-bottom: 10px;
 }
 

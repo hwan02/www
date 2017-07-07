@@ -1027,13 +1027,15 @@ a {
 }
 
 .event-heading,
-.related-heading {
+.related-heading,
+.favorite-heading {
     font-family: "Noto Sans Bold";
     font-size: 1.6rem;
 }
 
 .event-heading span,
-.event-related span {
+.event-related span,
+.favorite-heading span {
     color: #f00;
 }
 
@@ -1101,17 +1103,168 @@ a {
     transition: all 0.5s;
 }
 
-.related-list:hover,
+.list-act {
+    height: 125px;
+    padding: 5px 0;
+}
+
+
+/*.related-list:hover,
 .related-list:focus {
     height: 125px;
     padding: 10px;
-}
+}*/
 
 .related-list a {
     line-height: 25px;
     padding-left: 25px;
     display: block;
 }
+
+
+/* 인기사이트 */
+
+.favorite {
+    background: linear-gradient(to bottom, #eee, #ccc);
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.favorite-heading {
+    font-family: "Noto Sans Bold";
+    font-size: 1.6rem;
+    padding: 10px 10px 0 10px;
+}
+
+.favorite-list {
+    /*list-style-type:none 하면 순위를 모른다 패딩을 쓰면 안 된다 숫자가 나타나기 때문에 */
+    padding: 0;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+}
+
+.favorite-list li {
+    counter-increment: number;
+    margin: 10px 0;
+    position: relative;
+}
+
+.favorite-list li::before {
+    content: counter(number, decimal);
+    background: #999;
+    border-radius: 2px;
+    padding: 0 5px;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.up,
+.down,
+.stop {
+    background: url("images/rank.png") no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-style: normal;
+    width: 9px;
+    height: 0px;
+    padding-top: 11px;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.stop {
+    background-position: 0 50%;
+}
+
+.down {
+    background-position: 0 100%;
+}
+
+.favorite-more {
+    position: absolute;
+    right: 2px;
+    top: 12px;
+    padding: 8px;
+}
+
+.favorite-more::before {
+    content: "p";
+    font-family: "webcafeIcon";
+    color: hsla(120, 100%, 50%, 1);
+    position: relative;
+    top: 2px;
+}
+
+
+/*
+.favorite-list::before {
+    background: palegreen;
+    content: "";
+    font-family: "webcafeIcone";
+}
+
+.favorite-list li {
+    counter-increment: number;
+    line-height: 20px;
+    position: relative;
+}
+
+.favorite-list li::before {
+    background: #aaa none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    content: counter(number, decimal);
+    font-size: 1.2rem;
+    margin-right: 5px;
+    padding: 0 5px;
+}
+
+.favorite-list em {
+    float: right;
+    overflow: hidden;
+}
+
+.up .down .stop {
+    background: url("images/rank.png") no-repeat scroll 0 0;
+    box-sizing: border-box;
+    height: 11px;
+    overflow: hidden;
+    padding-top: 11px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 9px;
+}
+
+.down {
+    background-position: 100%;
+}
+
+.favorite span {
+    color: red;
+}
+
+.favorite-more {
+    background: rebeccapurple;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    padding: 8px;
+}
+
+.favorite-more::before {
+    content: "p";
+    font-family: "webcafeIcon";
+    color: hsla(120, 100%, 50%, 1);
+    position: relative;
+    top: 2px;
+}*/
 
 .slogan {
     height: 10vh;

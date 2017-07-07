@@ -224,6 +224,7 @@
                     <h2 class="news-heading">새소식</h2>
                     <article class="news-item">
                         <!--q반드시 display:block 해야 한다 점선이 뭉개질 수 있음-->
+                        <!--예전에는 안 됐지만 현재는 가능 article-->
                         <a href="#">
                             <h3 class="news-item-heading">W3C 사이트가 리뉴얼 되었습니다.</h3>
                             <time class="news-item-data" datetime="2017-07-10T17:12:30">2017.07.10</time>
@@ -239,7 +240,48 @@
                     <a href="#" class="news-more" title="새소식">더보기</a>
                 </section>
             </div>
-            <div class="group group3">콘텐츠컬럼3</div>
+            <div class="group group3">
+                <div class="event-related">
+                    <div class="event">
+                        <h2 class="event-heading">신규 <span>이벤트</span></h2>
+                        <!--왜 id로 해야 하나요? 갱신할 것으로 가정 id는 단 하나 밖에 없기 때문에-->
+                        <div id="event-detail">
+                            <p>
+                                <img src="images/free_gift.gif" alt="이벤트 상품 : 웹표준 핵심 가이드북 2 도서">
+                            </p>
+                            <p>
+                                <!--em??????강조해주는 것-->
+                                <em>웹표준 핵심 가이드북2 출시 !</em> 선착순 500명 한정으로 증정.
+                            </p>
+                        </div>
+                        <!--서버로 정보를 보낼 때는 field legend 등 -->
+                        <div class="btn-event">
+                            <button class="btn-event-prev" type="button">이전 이벤트 보기</button>
+                            <!--type 단축키는 없나요????-->
+                            <button class="btn-event-next" type="button">다음 이벤트 보기</button>
+                        </div>
+                    </div>
+                    <div class="related">
+                        <h2 class="related-heading">관련 <span>사이트</span></h2>
+                        <ul class="related-list" tabindex="0">
+                            <li><a href="#">멀티캠퍼스</a></li>
+                            <li><a href="#">생산성본부</a></li>
+                            <li><a href="#">W3C</a></li>
+                            <li><a href="#">웹접근성 연구소</a></li>
+                            <li><a href="#">CSS ZenGarden</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--<class class="event">
+                    <h2 class="event-heading">신규 이벤트</h2>
+                    <div class="event-image">이미지 폼</div>
+                    <div class="envent-text">텍스트 폼</div>
+                </class>
+                <a href="#" class="news-more" title="새소식">더보기</a>
+                <ul class="relativesite">관련 사이트</ul>-->
+
+            </div>
+
         </main>
         <article class="    slogan">슬로건</article>
         <div class="footer-bg">

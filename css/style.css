@@ -928,7 +928,6 @@ a {
 /* 새소식 */
 
 .news {
-    background: palegoldenrod;
     margin-top: 20px;
     position: relative;
 }
@@ -965,7 +964,6 @@ a {
 }
 
 .news-item {
-    background: palevioletred;
     margin-top: 30px;
     padding-left: 130px;
     position: relative;
@@ -1003,7 +1001,6 @@ a {
 }
 
 .news-item-data {
-    background: palegreen;
     margin-left: 15px;
     display: block;
 }
@@ -1014,12 +1011,115 @@ a {
     line-height: 1.5rem;
 }
 
+
+/* 이벤트 */
+
+.event-related {
+    background: linear-gradient(to top, #777, #fff);
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.event {
+    border-bottom: 1px solid #aaa;
+    position: relative;
+}
+
+.event-heading,
+.event-related {
+    font-family: "Noto Sans Bold";
+    font-size: 1.6rem;
+}
+
+.event-heading span,
+.event-related span {
+    color: #f00;
+}
+
+#event-detail {
+    margin-top: 10px;
+}
+
+#event-detail p {
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    font-family: "Noto Sans Bold";
+    margin-bottom: 10px;
+}
+
+#event-detail img {
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid #aaa;
+}
+
+#event-detail em {
+    font-style: normal;
+}
+
+.btn-event {
+    height: 19px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    display: inline-block;
+    right: 0;
+}
+
+.btn-event-prev,
+.btn-event-next {
+    width: 18px;
+    height: 19px;
+    border: 0;
+    padding: 19px 0 0 0;
+    cursor: pointer;
+    background: url("images/back_forward.png") no-repeat;
+    overflow: hidden;
+}
+
+.btn-event-prev:focus,
+.btn-event-next:focus {
+    outline: 2px solid #00f;
+}
+
+.btn-event-next {
+    background-position: 100% 0%;
+}
+
+.related {
+    margin-top: 10px;
+}
+
+.related-list {
+    background: #fff none repeat;
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 25px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.related-list:hover,
+.related-list:focus {
+    height: 125px;
+    padding: 10px;
+}
+
+.related-list a {
+    line-height: 25px;
+    padding-left: 25px;
+    display: block;
+}
+
 .slogan {
     height: 10vh;
 }
 
 .footer-bg {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 1)100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .footer {
